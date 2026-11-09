@@ -1,0 +1,11 @@
+{
+  "release_id": "ADG-2026Q4-02",
+  "artifacts": {
+    "helios-raw": {
+      "license": "odc-by"
+    },
+    "helios-instruct": {
+      "license": "odc-by"
+    }
+  }
+}
