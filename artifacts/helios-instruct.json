@@ -1,0 +1,26 @@
+{
+  "artifact": "helios-instruct",
+  "release": "ADG-2026Q4-02",
+  "kind": "dataset",
+  "summary": "Instruction-tuning set: seed passages from the base corpus plus synthetic instruction/response pairs.",
+  "sources": [
+    {
+      "kind": "dataset",
+      "hub_repo": "HuggingFaceFW/fineweb",
+      "role": "seed passages",
+      "license_tag": "odc-by"
+    },
+    {
+      "kind": "model",
+      "hub_repo": "tencent/Hunyuan-A13B-Instruct",
+      "role": "synthetic instruction/response generation",
+      "license_tag": "other"
+    }
+  ],
+  "composition": {
+    "seed_passage_rows_pct": 38,
+    "model_generated_rows_pct": 62
+  },
+  "owner": "data-engineering",
+  "status": "ready-for-license-clearance"
+}

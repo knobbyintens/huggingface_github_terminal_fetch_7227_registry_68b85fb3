@@ -1,0 +1,16 @@
+{
+  "artifact": "helios-raw",
+  "release": "ADG-2026Q4-02",
+  "kind": "dataset",
+  "summary": "Raw educational web text, cleaned and sharded. No synthetic augmentation.",
+  "sources": [
+    {
+      "kind": "dataset",
+      "hub_repo": "HuggingFaceFW/fineweb",
+      "role": "full text source",
+      "license_tag": "odc-by"
+    }
+  ],
+  "owner": "data-engineering",
+  "status": "ready-for-license-clearance"
+}
